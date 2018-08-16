@@ -1,4 +1,3 @@
-/* Define the gettext package to be used */
 #define GETTEXT_PACKAGE "pidgin-chatpop"
 
 #define PURPLE_PLUGINS
@@ -18,6 +17,7 @@
 #include "pluginpref.h"
 #include "prefs.h"
 
+#include "gtkconv.h"
 
 #define PLUGIN_ID       "chatpop"
 #define PLUGIN_NAME     N_("Chatpopper")
@@ -32,7 +32,7 @@ static void
 received_chat_msg_cb(PurpleAccount *acct, char *sender, char *buffer,
            PurpleConversation *chat, PurpleMessageFlags flags, void *data)
 {
-    purple_conversation_present(chat);
+    pidgin_conv_attach_to_conversation(chat);
 }
 
 
