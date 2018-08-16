@@ -1,0 +1,8 @@
+plugin for pidgin to show open chats when receiving a persistent chat message
+
+source: https://developer.pidgin.im/attachment/ticket/5507/chatpop.tar.gz
+see:  https://developer.pidgin.im/ticket/5507
+
+author: mino
+with minor edits by: rgpublic
+license: per mino, "Modify as you wish"
