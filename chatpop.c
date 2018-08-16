@@ -25,7 +25,7 @@
 #define PLUGIN_DESC     N_("Causes chat windows for buddies to appear" \
                            " when activity appears in the chat")
 #define PLUGIN_AUTHOR  "Paul Cowan <paul@custardsource.com>"
-#define PLUGIN_VERSION "1.0"
+#define PLUGIN_VERSION "1.1"
 #define PLUGIN_WEBSITE "https://developer.pidgin.im/ticket/5507"
 
 static void
